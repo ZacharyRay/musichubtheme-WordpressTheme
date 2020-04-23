@@ -20,9 +20,9 @@ jQuery(document).ready(function($) {
 
     $(window).scroll(function() {
       if ($(this).scrollTop() > 0) {
-        $('#arrowdown, #scroll').hide();
+        $('#arrowdown, #scroll').fadeOut();
       } else {
-        $('#arrowdown, #scroll').show();
+        $('#arrowdown, #scroll').fadeIn();
       }
     });
 
