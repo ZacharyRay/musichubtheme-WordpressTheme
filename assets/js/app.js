@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
         contain: true,
         selectedAttraction: 0.3,
         friction: 0.9,
-        prevNextButtons: false,
+        prevNextButtons: true,
         lazyLoad: true,
         autoPlay: true,
         autoPlay: 4000,

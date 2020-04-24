@@ -188,7 +188,8 @@ a:hover {
         height: 100%; }
         #hero-linktree-wrapper #hero-wrap .carousel-cell .video iframe {
           width: 100%;
-          height: 100%; }
+          height: 100%;
+          border-radius: 15px; }
       @media screen and (min-width: 720px) {
         #hero-linktree-wrapper #hero-wrap .carousel-cell {
           border-radius: 16px; } }
@@ -208,6 +209,26 @@ a:hover {
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
   background: white !important; }
+
+/* prev and next buttons */
+.flickity-button {
+  background: transparent !important; }
+
+/* big previous & next buttons */
+.flickity-prev-next-button {
+  width: 100px !important;
+  height: 100px !important;
+  opacity: 0.1; }
+  .flickity-prev-next-button svg path {
+    d: path("M62.5 0l3.6 2.1L38.7 50l27.4 47.9-3.6 2.1-28.6-50L62.5 0z") !important; }
+
+/* icon color */
+.flickity-button-icon {
+  fill: white !important; }
+
+/* hide disabled button */
+.flickity-button:disabled {
+  display: none !important; }
 
 #info-wrap {
   display: flex;
