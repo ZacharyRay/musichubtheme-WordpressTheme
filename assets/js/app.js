@@ -11,9 +11,10 @@ jQuery(document).ready(function($) {
         selectedAttraction: 0.3,
         friction: 0.9,
         prevNextButtons: true,
-        lazyLoad: true,
+        lazyLoad: 2,
         autoPlay: true,
         autoPlay: 4000,
+        
       });
     
     // scroll arrow
