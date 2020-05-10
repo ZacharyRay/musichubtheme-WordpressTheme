@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
         lazyLoad: 2,
         autoPlay: true,
         autoPlay: 4000,
-        
+        imagesLoaded: true,
       });
     
     // scroll arrow

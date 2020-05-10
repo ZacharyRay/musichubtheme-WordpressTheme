@@ -91,28 +91,11 @@
   background: transparent !important;
 }
 /* big previous & next buttons */
-.flickity-prev-next-button.previous {
-  left: -35px !important;
-  @include min-screen(700px){
-    left: 10px !important;
-  }
-}
-.flickity-prev-next-button.next{
-  right: -35px !important;
-  @include min-screen(700px){
-    right: 10px !important;
-  }
-}
 
 .flickity-prev-next-button {
-  width: 100px !important;
-  height: 100px !important;
+  width: 49px !important;
+  height: 49px !important;
   opacity: 0.1;
-  svg{
-    path{
-      d: path("M62.5 0l3.6 2.1L38.7 50l27.4 47.9-3.6 2.1-28.6-50L62.5 0z") !important;
-    }
-  }
 }
 /* icon color */
 .flickity-button-icon {
