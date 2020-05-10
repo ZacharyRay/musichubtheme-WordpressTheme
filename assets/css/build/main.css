@@ -214,6 +214,18 @@ a:hover {
   background: transparent !important; }
 
 /* big previous & next buttons */
+.flickity-prev-next-button.previous {
+  left: -35px !important; }
+  @media screen and (min-width: 700px) {
+    .flickity-prev-next-button.previous {
+      left: 10px !important; } }
+
+.flickity-prev-next-button.next {
+  right: -35px !important; }
+  @media screen and (min-width: 700px) {
+    .flickity-prev-next-button.next {
+      right: 10px !important; } }
+
 .flickity-prev-next-button {
   width: 100px !important;
   height: 100px !important;

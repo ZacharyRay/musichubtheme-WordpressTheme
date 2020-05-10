@@ -44,6 +44,3 @@ get_header();
 <div id="social-wrap">
   <?php echo do_shortcode('[custom-facebook-feed]'); ?>
 </div>
-
-
-
